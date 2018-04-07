@@ -1,0 +1,42 @@
+[
+    {
+        "type": "Expr_Plus",
+        "data": {
+            "left": {
+                "type": "Expr_Plus",
+                "data": {
+                    "left": {
+                        "type": "Expr_Plus",
+                        "data": {
+                            "left": {
+                                "type": "Const_Integer",
+                                "data": "1"
+                            },
+                            "right": {
+                                "type": "Const_Integer",
+                                "data": "2"
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "Const_Integer",
+                        "data": "3"
+                    }
+                }
+            },
+            "right": {
+                "type": "Expr_Minus",
+                "data": {
+                    "left": {
+                        "type": "Const_Integer",
+                        "data": "4"
+                    },
+                    "right": {
+                        "type": "Const_Integer",
+                        "data": "5"
+                    }
+                }
+            }
+        }
+    }
+]
